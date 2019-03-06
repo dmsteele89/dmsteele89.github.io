@@ -5,4 +5,8 @@ body {
   background: gray;
 }
 
+h1, a {
+  color: goldenrod;
+}
+
 /* Your Awesome Styling */

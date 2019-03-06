@@ -1,8 +1,6 @@
 // Everything OK?
 console.log('OK');
 
-// Your Awesome Scripts
-$(document).ready(function(){
-    // Target your .container, .wrapper, .post, etc.
-    $("main").fitVids();
-  });
+// Lightgallery
+
+$('.gallery-1').lightGallery();
