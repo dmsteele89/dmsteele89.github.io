@@ -3,4 +3,6 @@ console.log('OK');
 
 // Lightgallery
 
-$('.gallery-1').lightGallery();
+$('.gallery-1').lightGallery({
+  selector: a
+});
