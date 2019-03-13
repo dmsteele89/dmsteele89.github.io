@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'azonix';
+  src: url(/fonts/azonix/Azonix.otf);
+}
+
+@font-face {
+  font-family: 'zierschrift';
+  src: url(/fonts/ds-zierschrift/DSZierschrift.ttf);
+}
+
+
 /* Your Awesome Styling */
 body {
   background: gray;
