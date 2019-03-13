@@ -18,7 +18,11 @@ body {
 }
 
 h1, a {
-  color: goldenrod;
+  font-family: 'azonix';
+  text-decoration: none;
+  color: gold;
+  text-shadow: 1px 1px 8px goldenrod, 1px 1px 8px #ccc;
+  text-align: center;
 }
 
 nav {
@@ -32,6 +36,7 @@ ul {
   justify-content: center;
   flex-direction: row;
 }
+
 li {
   display: flex;
   margin-left: 50px;
