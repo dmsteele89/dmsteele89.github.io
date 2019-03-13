@@ -13,3 +13,9 @@ $('#gallery-2').lightGallery({
   share: false,
   download: false
 });
+
+/*$('nav').tabslet({
+  mouseevent: 'hover',
+  attribute: 'href',
+  animation: false
+});*/
