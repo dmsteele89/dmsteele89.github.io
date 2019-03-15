@@ -20,11 +20,14 @@ body {
 h1, a {
   font-family: 'azonix';
   text-decoration: none;
-  color: gold;
-  text-shadow: 1px 1px 8px goldenrod, 1px 1px 8px #ccc;
+  color: goldenrod;
+  /*text-shadow: 1px 1px 8px goldenrod, 1px 1px 8px #ccc;*/
   text-align: center;
 }
 
+h1 {
+  font-size: 3em;
+}
 
 nav {
   background-color: black;
