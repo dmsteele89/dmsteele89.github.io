@@ -55,3 +55,35 @@ li {
 .lg-toolbar {
   background: goldenrod;
 }
+
+section {
+  background: goldenrod;
+  margin: 1em;
+  width: 300px;
+}
+
+.grid section:hover,
+.list section:hover {
+  animation: pulse 1s;
+}
+
+#lightgallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*default grid view styling*/
+.grid section h2,
+.grid section p {
+  display: none;
+}
+
+/*default list view styling*/
+.list section img {
+  display: none;
+}
+
+.list section {
+  width: 300px;
+}

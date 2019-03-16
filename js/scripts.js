@@ -3,15 +3,22 @@ console.log('OK');
 
 // Lightgallery
 
-$('#gallery-1').lightGallery({
-  thumbnail: false,
-  share: false
+$('#lightgallery').lightGallery({
 });
 
-$('#gallery-2').lightGallery({
-  thumbnail: false,
-  share: false,
-  download: false
+// Controls for Views
+$('#grid').click( function(){
+  
+  $('main').removeClass('list');
+  $('main').addClass('grid');
+  //console.log('grid click');
+});
+
+$('#list').click( function(){
+  
+  $('main').removeClass('grid');
+  $('main').addClass('list');
+  //console.log('list click');
 });
 
 /*$('nav').tabslet({
