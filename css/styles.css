@@ -11,29 +11,28 @@
 
 /* Your Awesome Styling */
 body {
-  background: gray;
+  background: black;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+/*#about {
+  background-image: url('http://www.returnofkings.com/wp-content/uploads/2018/08/spokane.jpg');
+  background-repeat: no-repeat;
+}*/
+
 h1, a {
-  font-family: 'azonix';
+  font-family: 'zierschrift';
   text-decoration: none;
   color: goldenrod;
   /*text-shadow: 1px 1px 8px goldenrod, 1px 1px 8px #ccc;*/
   text-align: center;
+  font-weight: normal;
 }
 
 h1 {
   font-size: 3em;
-}
-
-nav {
-  background-color: black;
-  padding: 10px;
-  width: 100vw;
-  padding-left: 5em;
 }
 
 ul {
@@ -44,8 +43,19 @@ ul {
 
 li {
   display: flex;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+form {
+  display: flex;
+  height: 1.5em;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  color: white;
 }
 
 /* Portfolio Styling */
@@ -63,38 +73,46 @@ section {
   width: 300px;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+img {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
 }
 
-.grid {
-  width: 90vh;
+.banner {
+  position: relative;
 }
 
-.grid section:hover,
-.list section:hover {
-  animation: pulse 1s;
+.summary {
+  text-align: left;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  height: 100%;
+  padding-left: 2em;
+  background-color: rgb(0, 0, 0, .7)
+}
+
+h2 {
+  font-family: 'azonix';
+}
+
+p {
+  font-family: 'azonix'
 }
 
 #lightgallery {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-/*default grid view styling*/
-.grid section h2,
-.grid section p {
-  display: none;
+.summary:hover {
+    opacity: 1;
+    transition: .5s;
 }
 
-/*default list view styling*/
-.list section img {
-  display: none;
-}
-
-.list section {
-  width: 300px;
+#lightgallery a {
+  width: 100%;
 }
