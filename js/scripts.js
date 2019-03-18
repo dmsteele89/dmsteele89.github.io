@@ -3,7 +3,7 @@ console.log('OK');
 
 // Lightgallery
 
-$('#lightgallery').lightGallery({
+$('.grid').lightGallery({
 });
 
 // Controls for Views
