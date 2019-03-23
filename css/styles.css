@@ -8,6 +8,16 @@
   src: url(/fonts/ds-zierschrift/DSZierschrift.ttf);
 }
 
+@font-face {
+  font-family: 'old-english';
+  src: url(/fonts/old-english/OldeEnglish.ttf);
+}
+
+@font-face {
+  font-family: 'morris-roman';
+  src: url(/fonts/morris-roman/MorrisRomanBlack.ttf);
+}
+
 
 /* Your Awesome Styling */
 body {
@@ -22,8 +32,9 @@ body {
   background-repeat: no-repeat;
 }*/
 
-h1, a {
+h1 {
   font-family: 'zierschrift';
+  font-size: 5em;
   text-decoration: none;
   color: goldenrod;
   /*text-shadow: 1px 1px 8px goldenrod, 1px 1px 8px #ccc;*/
@@ -31,8 +42,14 @@ h1, a {
   font-weight: normal;
 }
 
-h1 {
-  font-size: 3em;
+a {
+  font-family: 'morris-roman';
+  font-size: 1.5em;
+  text-decoration: none;
+  color: goldenrod;
+  /*text-shadow: 1px 1px 8px goldenrod, 1px 1px 8px #ccc;*/
+  text-align: center;
+  font-weight: normal;
 }
 
 ul {
@@ -84,6 +101,9 @@ img {
 }
 
 .summary {
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;*/
   text-align: left;
   position: absolute;
   left: 0px;
@@ -95,11 +115,15 @@ img {
 }
 
 h2 {
-  font-family: 'azonix';
+  font-family: 'zierschrift';
+  font-size: 3em;
+  font-weight: normal;
+  margin-bottom: -.3em;
 }
 
 p {
-  font-family: 'azonix'
+  font-family: 'morris-roman';
+  font-size: 1.3em;
 }
 
 #lightgallery {
