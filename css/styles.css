@@ -21,7 +21,17 @@
 
 /* Your Awesome Styling */
 body {
-  background: black;
+  background-image: url('https://subwallpaper.com/Widescreen-Wallpapers/dark-forest-wallpapers-for-iphone-For-Widescreen-Wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.black-filter {
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -127,9 +137,23 @@ h2 {
   margin-bottom: -.3em;
 }
 
+h3 {
+  font-family: 'zierschrift';
+  font-size: 3.5em;
+  font-weight: normal;
+  color: silver;
+}
+
 p {
   font-family: 'morris-roman';
   font-size: 1em;
+  color: silver;
+}
+
+.about {
+  width: 40%;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 #lightgallery {
@@ -145,4 +169,10 @@ p {
 
 #lightgallery a {
   width: 100%;
+}
+
+.pic-me {
+  background-color: red;
+  width: 35vh;
+  height: 50vh;
 }
