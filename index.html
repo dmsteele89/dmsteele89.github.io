@@ -20,15 +20,17 @@
     <meta name="theme-color" content="#f6c503">
 
 <!-- Normalize CSS via CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 <!-- Required Plugin Stylesheets -->    
+    <link rel="stylesheet" href="/css/lightgallery.min.css">
+    <link rel="stylesheet" href="/css/lg-transitions.min.css">
     <link rel="stylesheet" href="/css/animate.min.css">
 <!-- My Awesome Styling -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 
 </head>
 
-<nav>
+<!--<nav>
     <div class='tabs'>
         <ul class='horizontal'>
             <li><a href="index.html">Home</a></li>
@@ -36,11 +38,69 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
-</nav>
+</nav>-->
 
 <body>
     
     <h1>Duncan Steele</h1>
+
+    <h1>Portfolio</h1>
+      
+      <div id="lightgallery">
+  
+          <a class="banner" href="http://www.returnofkings.com/wp-content/uploads/2018/08/spokane.jpg">
+            <img src="http://www.returnofkings.com/wp-content/uploads/2018/08/spokane.jpg">
+            <div class="summary">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat expedita, cumque quos ullam similique earum, optio dicta maxime dolores architecto nesciunt nisi aut voluptatum deleniti praesentium, iste corporis illum facilis.</p>
+            </div>
+          </a>
+
+          <a class="banner" href="http://www.returnofkings.com/wp-content/uploads/2018/08/spokane.jpg">
+            <img src="http://www.returnofkings.com/wp-content/uploads/2018/08/spokane.jpg">
+            <div class="summary">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat expedita, cumque quos ullam similique earum, optio dicta maxime dolores architecto nesciunt nisi aut voluptatum deleniti praesentium, iste corporis illum facilis.</p>
+            </div>
+          </a>
+          
+          <a class="banner" href="http://www.returnofkings.com/wp-content/uploads/2018/08/spokane.jpg">
+            <img src="http://www.returnofkings.com/wp-content/uploads/2018/08/spokane.jpg">
+            <div class="summary">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat expedita, cumque quos ullam similique earum, optio dicta maxime dolores architecto nesciunt nisi aut voluptatum deleniti praesentium, iste corporis illum facilis.</p>
+            </div>
+          </a>
+
+          <a class="banner" href="http://www.returnofkings.com/wp-content/uploads/2018/08/spokane.jpg">
+            <img src="http://www.returnofkings.com/wp-content/uploads/2018/08/spokane.jpg">
+            <div class="summary">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat expedita, cumque quos ullam similique earum, optio dicta maxime dolores architecto nesciunt nisi aut voluptatum deleniti praesentium, iste corporis illum facilis.</p>
+            </div>
+          </a>
+
+        </div>
+
+        <h1>Contact</h1>
+
+    <form action="https://formspree.io/dmsteele89@gmail.com" method="POST">
+
+        <!-- Visible -->
+        <label for="name">Name</label>
+        <input type="text" name="name">
+
+        <label for="_replyto">Email</label>
+        <input type="email" name="_replyto">
+        
+        <label for="comments">Comments</label>
+        <textarea class="comments" name="comments" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="Send">
+
+        <!-- Hidden -->
+        <input type="hidden" name="_next" value="/"/>
+    </form>
 
     <!-- jQuery Library via CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

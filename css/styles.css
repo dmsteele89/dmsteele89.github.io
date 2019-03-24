@@ -36,7 +36,7 @@ h1 {
   font-family: 'zierschrift';
   font-size: 5em;
   text-decoration: none;
-  color: goldenrod;
+  color: silver;
   /*text-shadow: 1px 1px 8px goldenrod, 1px 1px 8px #ccc;*/
   text-align: center;
   font-weight: normal;
@@ -46,7 +46,7 @@ a {
   font-family: 'morris-roman';
   font-size: 1.5em;
   text-decoration: none;
-  color: goldenrod;
+  color: silver;
   /*text-shadow: 1px 1px 8px goldenrod, 1px 1px 8px #ccc;*/
   text-align: center;
   font-weight: normal;
@@ -66,13 +66,19 @@ li {
 
 form {
   display: flex;
-  height: 1.5em;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 3em;
 }
 
 label {
-  color: white;
+  color: silver;
+  font-family: 'morris-roman';
+}
+
+.comments {
+  width: 25vw;
+  margin-bottom: 3vh;
 }
 
 /* Portfolio Styling */
@@ -81,11 +87,11 @@ label {
 }
 
 .lg-toolbar {
-  background: goldenrod;
+  background: black;
 }
 
 section {
-  background: goldenrod;
+  background: white;
   margin: 1em;
   width: 300px;
 }
@@ -116,14 +122,14 @@ img {
 
 h2 {
   font-family: 'zierschrift';
-  font-size: 3em;
+  font-size: 2em;
   font-weight: normal;
   margin-bottom: -.3em;
 }
 
 p {
   font-family: 'morris-roman';
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 #lightgallery {
