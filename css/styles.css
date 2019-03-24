@@ -182,12 +182,12 @@ p {
 
 .pic-me {
   background-image: url('/img/FB_IMG_1537396397403\ \(1\).jpg');
-  width: 30vh;
+  width: 25vh;
   height: 30vh;
   background-position: center;
   background-size: cover;
   margin: 1.5em;
-  border-radius: 50%;
+  
 }
 
 section {
