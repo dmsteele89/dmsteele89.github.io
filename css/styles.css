@@ -18,6 +18,16 @@
   src: url(/fonts/morris-roman/MorrisRomanBlack.ttf);
 }
 
+@font-face {
+  font-family: 'modern-antiqua';
+  src: url(/fonts/modern-anitqua/ModernAntiqua-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'sparkler';
+  src: url(/fonts/sparkler/Sparkler-demo.ttf);
+}
+
 
 /* Your Awesome Styling */
 body {
@@ -83,7 +93,7 @@ form {
 
 label {
   color: silver;
-  font-family: 'morris-roman';
+  font-family: 'sparkler';
 }
 
 .comments {
@@ -119,6 +129,10 @@ img {
   margin: .5em;
 }
 
+img:hover {
+  animation: 'pulse';
+}
+
 .summary {
   /*display: flex;
   flex-direction: column;
@@ -149,14 +163,14 @@ h3 {
 }
 
 h4 {
-  font-family: 'morris-roman';
+  font-family: 'sparkler';
   color: silver;
   font-weight: normal;
   font-size: 2.5em;
 }
 
 p {
-  font-family: 'morris-roman';
+  font-family: 'sparkler';
   font-size: 1em;
   color: silver;
 }
@@ -194,4 +208,10 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+#detail {
+  margin-top: -3em;
+  margin-bottom: 3em;
+  width: 20vw;
 }
