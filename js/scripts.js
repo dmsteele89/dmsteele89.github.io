@@ -6,6 +6,9 @@ console.log('OK');
 $('#lightgallery').lightGallery({
 });
 
+$('#lightgallery2').lightGallery({
+});
+
 $('nav').tabslet({
   mouseevent: 'hover',
   attribute: 'href',
