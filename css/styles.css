@@ -64,7 +64,7 @@ body {
 
 h1 {
   font-family: 'black-letter';
-  font-size: 5em;
+  font-size: 8em;
   text-decoration: none;
   color: goldenrod;
   /*text-shadow: 1px 1px 8px goldenrod, 1px 1px 8px #ccc;*/
@@ -169,28 +169,28 @@ img:hover {
 }
 
 h2 {
-  font-family: 'zierschrift';
+  font-family: 'black-letter';
   font-size: 2em;
   font-weight: normal;
   margin-bottom: -.3em;
 }
 
 h3 {
-  font-family: 'zierschrift';
+  font-family: 'black-letter';
   font-size: 3.5em;
   font-weight: normal;
   color: silver;
 }
 
 h4 {
-  font-family: 'sparkler';
+  font-family: 'geo-sans';
   color: silver;
   font-weight: normal;
   font-size: 2.5em;
 }
 
 p {
-  font-family: 'sparkler';
+  font-family: 'geo-sans';
   font-size: 1em;
   color: silver;
 }
