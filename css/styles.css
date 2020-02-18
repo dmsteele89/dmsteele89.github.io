@@ -40,9 +40,9 @@
 
 /* Your Awesome Styling */
 body {
-  background-image: url('https://subwallpaper.com/Widescreen-Wallpapers/dark-forest-wallpapers-for-iphone-For-Widescreen-Wallpaper.jpg');
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(to top, black, 98.76%, transparent),
+      url('/img/SpokaneSkyline.jpeg');
+  background-size: 100vw;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -50,7 +50,6 @@ body {
 }
 
 .black-filter {
-  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,10 +62,10 @@ body {
 }*/
 
 h1 {
-  font-family: 'black-letter';
+  font-family: 'geo-sans';
   font-size: 8em;
   text-decoration: none;
-  color: goldenrod;
+  color: silver;
   /*text-shadow: 1px 1px 8px goldenrod, 1px 1px 8px #ccc;*/
   text-align: center;
   font-weight: normal;
@@ -193,6 +192,13 @@ h4 {
   font-size: 2.5em;
 }
 
+h5 {
+  font-family: 'geo-sans';
+  color: silver;
+  font-weight: normal;
+  font-size: 2.5em;
+}
+
 p {
   font-family: 'geo-sans';
   font-size: 1em;
@@ -228,11 +234,12 @@ p {
 
 .pic-me {
   background-image: url('/img/FB_IMG_1537396397403\ \(1\).jpg');
-  width: 25vh;
+  width: 30vh;
   height: 30vh;
   background-position: center;
   background-size: cover;
   margin: 1.5em;
+  border-radius: 250px;
   
 }
 
@@ -246,4 +253,14 @@ section {
   margin-top: -3em;
   margin-bottom: 3em;
   width: 20vw;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+}
+
+.tabs {
+  width: 100vw;
+  align-self: center;
 }
